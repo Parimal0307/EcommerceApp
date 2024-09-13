@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ECommerce2</string>
+    <string name="prodimg">prodimg</string>
+    <string name="name_iphone">name_iphone</string>
+    <string name="price_79_999">price_79_999</string>
+    <string name="description_a_product_by_apple">description_a_product_by_apple</string>
+    <string name="welcome_to_e_commerce_app">Welcome to E-commerce App</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_as_seller">Login as seller</string>
+    <string name="new_user_sign_up">New user? Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>

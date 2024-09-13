@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadProduActivity">
+
+    <ImageView
+        android:id="@+id/img_preview"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"/>
+
+    <EditText
+        android:id="@+id/prod_name_edt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/prod_price_edt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/prod_desc_edt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Desc"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:id="@+id/btn_upload_img"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload product"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_upload_prod"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
